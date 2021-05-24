@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+
     <link rel="stylesheet" href="style.css" />
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
     <link
@@ -12,6 +13,7 @@
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"
     />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <script src="https://cdn.lordicon.com//libs/frhvbuzj/lord-icon-2.0.2.js"></script>
 
     <title>Garminhelpers</title>
   </head>
@@ -36,7 +38,7 @@
     <!-- 1st upper page -->
     <div class="spacer"></div>
 
-    <div id = home class="single-page-wrap">
+    <div id="home" class="single-page-wrap">
       <img
         src="./images/pexels-alexandra-karnasopoulos-3680321-1-300x198.jpg"
         alt=""
@@ -44,21 +46,31 @@
       />
       <div class="btn-div">
         <div class="live btn-4-download">
-          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank ">Download For Windows</a>
+          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank "
+            >Download For Windows</a
+          >
         </div>
 
         <div class="live">
-          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank ">Download For Mac</a>
+          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank "
+            >Download For Mac</a
+          >
         </div>
       </div>
     </div>
     <!-- block-part -->
-    <div id= services class="blocks-part">
+    <div id="services" class="blocks-part">
       <div class="blocks-part__container">
-        <div class="block" data-aos="fade-up" data-aos-delay="30" data-aos-offset="120">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="30"
+          data-aos-offset="120"
+        >
           <div class="block__image-container">
             <div class="block__image-container__background">
-              <img src="./images/garmin_updates.png" alt="" />
+              
+              <img class="rotate" src="./images/garmin_updates.png" alt="" />
             </div>
           </div>
           <div class="block__text-container">
@@ -70,10 +82,23 @@
           </div>
         </div>
 
-        <div class="block"data-aos="fade-up" data-aos-delay="100"  data-aos-offset="120">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="100"
+          data-aos-offset="120"
+        >
           <div class="block__image-container">
             <div class="block__image-container__background">
-              <img src="./images/img_400302-300x294.png" alt="" />
+              <lord-icon class="settings"
+                src="https://cdn.lordicon.com/sbiheqdr.json"
+                trigger="loop"
+                colors="primary:#121331,secondary:#08a88a"
+                stroke="50"
+               
+              >
+              </lord-icon>
+              <!-- <img src="./images/outline_cloud_done_black_24dp.png" alt="" /> -->
             </div>
           </div>
           <div class="block__text-container">
@@ -85,10 +110,25 @@
           </div>
         </div>
 
-        <div class="block" data-aos="fade-up" data-aos-delay="200" data-aos-offset="120">
+        <div
+          class="block"
+          data-aos="fade-up"
+          data-aos-delay="200"
+          data-aos-offset="120"
+        >
           <div class="block__image-container">
             <div class="block__image-container__background">
-              <img src="./images/gps_maps_updates.png" alt="" />
+             
+                <lord-icon
+                  src="https://cdn.lordicon.com/zzcjjxew.json"
+                  trigger="loop"
+                  colors="primary:#121331,secondary:#08a88a"
+                  
+                  
+                >
+                </lord-icon>
+              
+
             </div>
           </div>
           <div class="block__text-container">
@@ -105,12 +145,9 @@
     <!-- white-picture-part -->
     <div class="white-picture-part">
       <div class="white-picture-part__image" data-aos="fade-right">
-        <img
-          src="./images/sports-croped.jpg"
-          alt=""
-        />
+        <img src="./images/sports-croped.jpg" alt="" />
       </div>
-      <div class="white-picture-part__text" data-aos="fade-left" >
+      <div class="white-picture-part__text" data-aos="fade-left">
         <h1>Sports</h1>
         <p>
           Chat with our experts , they will fix your issue and guide you how to
@@ -122,8 +159,7 @@
       </div>
     </div>
     <!--GCM Devices Part -->
-    <div class="GCM-Devices-part" >
-      
+    <div class="GCM-Devices-part">
       <div class="GCM-Devices-part__text" data-aos="fade-right">
         <h1>How to update your Garmin Device</h1>
         <p>
@@ -134,16 +170,10 @@
           <a href="">Chat with us</a>
         </div>
       </div>
-      <div class="GCM-Devices-part__image" data-aos="fade-left" >
-        <img
-          src="./images/wearables_homepage-lg.png"
-          alt=""
-        />
+      <div class="GCM-Devices-part__image" data-aos="fade-left">
+        <img src="./images/wearables_homepage-lg.png" alt="" />
       </div>
     </div>
-
-
-
 
     <!-- black-picture-part -->
     <div class="black-picture-part">
@@ -157,18 +187,19 @@
           your time on the water.
         </p>
         <div class="live-black-wala">
-          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank ">Download For Mac</a>
+          <a href="https://support.garmin.gpsupdate.xyz/ " target="_blank "
+            >Download For Mac</a
+          >
         </div>
       </div>
     </div>
 
- <!-- Pair SEction -->
+    <!-- Pair SEction -->
     <div class="pair-part">
       <div class="pair-image">
-        <img src="./images/Pair.jpeg" alt="">
-      </div> 
+        <img src="./images/Pair.jpeg" alt="" />
+      </div>
     </div>
-
 
     <!-- heading in black background -->
 
@@ -179,8 +210,6 @@
       </div>
     </div>
 
-
-
     <!-- contact section  -->
     <section class="contact" id="contact">
       <div class="max-width">
@@ -190,8 +219,8 @@
             <div class="text">Get in Touch</div>
             <p>
               Wanna do some talk slash discussion for improvements, business
-              related stuff or to just hang out with me,use these sources.I
-              love to meet new people.Yah really.Try it.
+              related stuff or to just hang out with me,use these sources.I love
+              to meet new people.Yah really.Try it.
             </p>
             <div class="icons">
               <div class="row">
@@ -277,14 +306,6 @@
       </div>
     </section>
 
-   
-
-
-
-
-
-
-
     <!-- location-section -->
     <div id="googleMap" class="map-part">
       <iframe
@@ -314,12 +335,10 @@
     <!--End of Tawk.to Script-->
     <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script>
- 
-        AOS.init({
-          offset: 200,
-          duration: 800, 
-        });
-      </script>
-    
+      AOS.init({
+        offset: 200,
+        duration: 800,
+      });
+    </script>
   </body>
 </html>

@@ -182,18 +182,36 @@ img.attachment-large {
   max-width:100%;
 }
 .block__image-container__background {
-  background: var(--block-background-color);
-  border-radius: 50%;
+  /* background: var(--block-background-color); */
+  /* border-radius: 50%; */
 
-  height: 91.7969px;
-  width: 87px;
+  
 
   display: grid;
   place-items: center;
+  position: relative;
 }
-.block__image-container__background img {
-  height: 60px;
+.rotate {
+  height:100px;
+  width:100px;
+  animation: rotation 8s infinite linear;
 }
+
+@keyframes rotation {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(359deg);
+  }
+}
+lord-icon {
+ 
+  width: 100px; 
+  height: 100px
+
+}
+
 
 /* GCM-Devices Part */
 
